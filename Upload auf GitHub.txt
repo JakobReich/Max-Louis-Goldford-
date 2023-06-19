@@ -1,0 +1,5 @@
+cd [Ordner]
+git status
+git add .
+git commit -m "Kommentar"
+git push origin main
