@@ -1,0 +1,2 @@
+cd ["change directory"] [Ordner]
+git clone [webadress]

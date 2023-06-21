@@ -1,4 +1,4 @@
-cd [Ordner]
+cd ["change directory"] [Ordner]
 git status
 git add .
 git commit -m "Kommentar"
