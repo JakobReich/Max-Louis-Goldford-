@@ -3,14 +3,14 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 1,
-			"revision" : 8,
+			"minor" : 5,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 192.0, 93.0, 699.0, 697.0 ],
+		"rect" : [ 191.0, 93.0, 699.0, 697.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -282,14 +282,14 @@
 					"clipheight" : 133.319540977478027,
 					"data" : 					{
 						"clips" : [ 							{
-								"absolutepath" : "C:\\Users\\Jakob\\Desktop\\MI Brother Sun, Sister Moon.wav",
+								"absolutepath" : "C:\\Users\\Jakob\\Documents\\Studium\\Komposition\\Komposition (Lemke)\\Granularsynthese\\04-Granularsynthese-Send\\Records\\Brother Sun\\MI Brother Sun, Sister Moon.wav",
 								"filename" : "MI Brother Sun, Sister Moon.wav",
 								"filekind" : "audiofile",
-								"id" : "u909001102",
-								"selection" : [ 0.234234234234234, 0.459459459459459 ],
-								"loop" : 1,
+								"id" : "u492000339",
+								"selection" : [ 0.0, 1.0 ],
+								"loop" : 0,
 								"content_state" : 								{
-									"loop" : 1
+
 								}
 
 							}
@@ -300,7 +300,7 @@
 					"formantcorrection" : 0,
 					"id" : "obj-67",
 					"maxclass" : "playlist~",
-					"mode" : 0,
+					"mode" : "basic",
 					"numinlets" : 1,
 					"numoutlets" : 5,
 					"originallength" : [ 0 ],
@@ -309,7 +309,7 @@
 					"parameter_enable" : 0,
 					"patching_rect" : [ 198.954885125160217, 166.615396499633789, 166.41326379776001, 134.319540977478027 ],
 					"pitchcorrection" : 0,
-					"quality" : 0,
+					"quality" : "basic",
 					"timestretch" : [ 0 ]
 				}
 
@@ -584,8 +584,8 @@
 						"fileversion" : 1,
 						"appversion" : 						{
 							"major" : 8,
-							"minor" : 1,
-							"revision" : 8,
+							"minor" : 5,
+							"revision" : 5,
 							"architecture" : "x64",
 							"modernui" : 1
 						}

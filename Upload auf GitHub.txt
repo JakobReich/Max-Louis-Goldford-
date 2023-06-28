@@ -1,5 +1,23 @@
+Ordner mit Repository verknüpfen:
+
+cd [Ordner]
+git clone [
+
+Upload:
+
 cd ["change directory"] [Ordner]
 git status
 git add .
 git commit -m "Kommentar"
 git push origin main
+
+Download:
+
+cd ["change directory"] [Ordner]
+git clone [webadress]
+
+Update:
+
+cd
+git status
+git pull origin main
