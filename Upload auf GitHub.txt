@@ -21,3 +21,6 @@ Update:
 cd
 git status
 git pull origin main
+
+TOKEN:
+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

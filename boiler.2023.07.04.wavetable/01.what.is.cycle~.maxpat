@@ -4,13 +4,13 @@
 		"appversion" : 		{
 			"major" : 8,
 			"minor" : 5,
-			"revision" : 2,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 1138.0, 106.0, 884.0, 659.0 ],
+		"rect" : [ 35.0, 84.0, 1468.0, 705.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -66,7 +66,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 338.0, 317.0, 126.0, 87.0 ],
+					"patching_rect" : [ 338.0, 317.0, 126.0, 89.0 ],
 					"text" : "In computer memory, a lookup table would be an indexed list of X/Y pairs, but it might be visually represent-\ned like this.",
 					"textcolor" : [ 0.784314, 0.145098, 0.023529, 1.0 ]
 				}
@@ -139,7 +139,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 548.0, 404.5, 289.0, 87.0 ],
+					"patching_rect" : [ 548.0, 404.5, 289.0, 89.0 ],
 					"text" : "Y-values (output) from <cos~> from -1. to 1. \nOver X-values from 0. to 1. (input), this represents a single PERIOD of a cosine waveform from 0 to 2π radians (or, 0° to 360° in phase space). The sawtooth simply repeats this period above at a certain frequency, and so does the cosine wave!"
 				}
 
@@ -153,7 +153,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 548.0, 253.5, 289.0, 47.0 ],
+					"patching_rect" : [ 548.0, 253.5, 289.0, 48.0 ],
 					"text" : "Y-values (output) from <phasor~> going from 0. to 1.\nbecome\nX-values (input) to <cos~>"
 				}
 
@@ -188,7 +188,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 39.0, 488.0, 262.0, 47.0 ],
+					"patching_rect" : [ 39.0, 488.0, 262.0, 48.0 ],
 					"text" : "By the way, the difference between a SINE and a COSINE wave is only that they are 90° out of phase, but are essentially the same waveform."
 				}
 
@@ -202,7 +202,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 678.0, 571.0, 176.0, 60.0 ],
+					"patching_rect" : [ 678.0, 571.0, 176.0, 62.0 ],
 					"text" : "Together, <phasor~> and <cos~> work as a sinusoidal oscillator. Essentially, these   form the <cycle~> object."
 				}
 
@@ -214,7 +214,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 571.0, 313.0, 294.0, 87.0 ],
+					"patching_rect" : [ 571.0, 313.0, 294.0, 89.0 ],
 					"text" : "<cos~> is our lookup table. It stores the Y-values of a cosine function for X-values ranging from 0. to 1. Each sample of <phasor~> INDEXES (looks up) the corresponding Y-value in a function table, which geneates (outputs) a cosine waveform that oscillates audibly at a variable frequency."
 				}
 
@@ -226,7 +226,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 609.0, 118.5, 248.0, 127.0 ],
+					"patching_rect" : [ 609.0, 118.5, 248.0, 131.0 ],
 					"text" : "We can use <phasor~> as a CONTROL SIGNAL to read from a LOOKUP TABLE. \n\n(A control signal is a signal that you don't hear, but it controls changes in other signals you do hear, much like in modular synthesis. \n\nA lookup table contains X and Y values that will be turned into an audible WAVEFORM)."
 				}
 
@@ -315,7 +315,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 609.0, 65.0, 241.0, 47.0 ],
+					"patching_rect" : [ 609.0, 65.0, 241.0, 48.0 ],
 					"text" : "<phasor~> is a sawtooth signal that simply RAMPS from 0. to 1. over a certain amount of time — that is, at a specified frequency."
 				}
 
@@ -327,7 +327,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 135.0, 65.0, 248.0, 60.0 ],
+					"patching_rect" : [ 135.0, 65.0, 248.0, 62.0 ],
 					"text" : "We think of <cycle~> as one self-contained unit: a SINE WAVE OSCILLATOR. But, it is actually comprised of 2 functions that are both inside 1 object box..."
 				}
 
@@ -465,28 +465,28 @@
  ],
 		"dependency_cache" : [ 			{
 				"name" : "sine-cosine-graph.svg",
-				"bootpath" : "~/Desktop/myClasses/z.divers/wavetable.prep",
+				"bootpath" : "~/Documents/Studium/Schulmusik/Sound Art/Max-Louis-Goldford-/boiler.2023.07.04.wavetable",
 				"patcherrelativepath" : ".",
 				"type" : "svg",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "z.CMC-logo300dpi.2x.gif",
-				"bootpath" : "~/Desktop/myClasses/z.divers/wavetable.prep",
+				"bootpath" : "~/Documents/Studium/Schulmusik/Sound Art/Max-Louis-Goldford-/boiler.2023.07.04.wavetable",
 				"patcherrelativepath" : ".",
 				"type" : "GIFf",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "z.by-sa.2x.png",
-				"bootpath" : "~/Desktop/myClasses/z.divers/wavetable.prep",
+				"bootpath" : "~/Documents/Studium/Schulmusik/Sound Art/Max-Louis-Goldford-/boiler.2023.07.04.wavetable",
 				"patcherrelativepath" : ".",
 				"type" : "PNG",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "z.credits.v01.bp.maxpat",
-				"bootpath" : "~/Desktop/myClasses/z.divers/wavetable.prep",
+				"bootpath" : "~/Documents/Studium/Schulmusik/Sound Art/Max-Louis-Goldford-/boiler.2023.07.04.wavetable",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
