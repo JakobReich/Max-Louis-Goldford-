@@ -3,8 +3,8 @@
 		"fileversion" : 1,
 		"appversion" : 		{
 			"major" : 8,
-			"minor" : 1,
-			"revision" : 8,
+			"minor" : 5,
+			"revision" : 5,
 			"architecture" : "x64",
 			"modernui" : 1
 		}
@@ -55,7 +55,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 160.0, 94.0, 66.0, 20.0 ],
+					"patching_rect" : [ 135.0, 94.0, 66.0, 20.0 ],
 					"text" : "OUT patch"
 				}
 
@@ -66,7 +66,7 @@
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 156.0, 27.0, 53.0, 20.0 ],
+					"patching_rect" : [ 130.0, 23.0, 53.0, 20.0 ],
 					"text" : "IN patch"
 				}
 
@@ -77,8 +77,8 @@
 					"maxclass" : "newobj",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 17.0, 92.0, 137.0, 22.0 ],
-					"text" : "230516_sound_out_v01"
+					"patching_rect" : [ 17.0, 92.0, 111.0, 22.0 ],
+					"text" : "230516_sound_out"
 				}
 
 			}
@@ -88,32 +88,39 @@
 					"maxclass" : "newobj",
 					"numinlets" : 0,
 					"numoutlets" : 0,
-					"patching_rect" : [ 17.0, 21.0, 130.0, 22.0 ],
-					"text" : "230516_sound_in_v01"
+					"patching_rect" : [ 17.0, 21.0, 104.0, 22.0 ],
+					"text" : "230516_sound_in"
 				}
 
 			}
  ],
 		"lines" : [  ],
 		"dependency_cache" : [ 			{
-				"name" : "230516_sound_in_v01.maxpat",
-				"bootpath" : "~/Documents/Studium/Schulmusik/Sound Art/Max (Louis Goldford)",
+				"name" : "230516_sound_in.maxpat",
+				"bootpath" : "~/Documents/Studium/Schulmusik/Sound Art/Max-Louis-Goldford-",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
-				"name" : "230516_sound_out_v01.maxpat",
-				"bootpath" : "~/Documents/Studium/Schulmusik/Sound Art/Max (Louis Goldford)",
+				"name" : "230516_sound_out.maxpat",
+				"bootpath" : "~/Documents/Studium/Schulmusik/Sound Art/Max-Louis-Goldford-",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
 				"implicit" : 1
 			}
 , 			{
 				"name" : "230530_midiin.maxpat",
-				"bootpath" : "~/Documents/Studium/Schulmusik/Sound Art/Max (Louis Goldford)",
+				"bootpath" : "~/Documents/Studium/Schulmusik/Sound Art/Max-Louis-Goldford-",
 				"patcherrelativepath" : ".",
 				"type" : "JSON",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "MI Brother Sun, Sister Moon.wav",
+				"bootpath" : "~/Documents/Studium/Komposition/Komposition (Lemke)/Granularsynthese/04-Granularsynthese-Send/Records/Brother Sun",
+				"patcherrelativepath" : "../../../Komposition/Komposition (Lemke)/Granularsynthese/04-Granularsynthese-Send/Records/Brother Sun",
+				"type" : "WAVE",
 				"implicit" : 1
 			}
  ],
